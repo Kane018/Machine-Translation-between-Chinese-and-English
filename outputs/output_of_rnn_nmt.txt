@@ -1,0 +1,214 @@
+C:\Users\250010086\.conda\envs\nlp\python.exe C:\Users\250010086\Desktop\pro\rnn_nmt.py 
+Source vocab size: 9362
+Target vocab size: 2626
+
+=== Training with additive attention ===
+Training: 100%|██████████| 157/157 [09:33<00:00,  3.65s/it]
+Evaluating: 100%|██████████| 8/8 [00:07<00:00,  1.14it/s]
+Epoch 1: Train Loss: 5.978, Val Loss: 6.617
+Training: 100%|██████████| 157/157 [12:04<00:00,  4.62s/it]
+Evaluating: 100%|██████████| 8/8 [00:06<00:00,  1.17it/s]
+Epoch 2: Train Loss: 5.360, Val Loss: 6.569
+Training: 100%|██████████| 157/157 [12:21<00:00,  4.72s/it]
+Evaluating: 100%|██████████| 8/8 [00:06<00:00,  1.24it/s]
+Epoch 3: Train Loss: 5.073, Val Loss: 6.668
+Training: 100%|██████████| 157/157 [11:59<00:00,  4.58s/it]
+Evaluating: 100%|██████████| 8/8 [00:06<00:00,  1.16it/s]
+Epoch 4: Train Loss: 4.860, Val Loss: 6.510
+Training: 100%|██████████| 157/157 [11:35<00:00,  4.43s/it]
+Evaluating: 100%|██████████| 8/8 [00:06<00:00,  1.17it/s]
+Training:   0%|          | 0/157 [00:00<?, ?it/s]Epoch 5: Train Loss: 4.676, Val Loss: 6.577
+Training: 100%|██████████| 157/157 [11:57<00:00,  4.57s/it]
+Evaluating: 100%|██████████| 8/8 [00:07<00:00,  1.13it/s]
+Training:   0%|          | 0/157 [00:00<?, ?it/s]Epoch 6: Train Loss: 4.539, Val Loss: 6.642
+Training: 100%|██████████| 157/157 [12:08<00:00,  4.64s/it]
+Evaluating: 100%|██████████| 8/8 [00:06<00:00,  1.22it/s]
+Epoch 7: Train Loss: 4.382, Val Loss: 6.665
+Training: 100%|██████████| 157/157 [12:00<00:00,  4.59s/it]
+Evaluating: 100%|██████████| 8/8 [00:06<00:00,  1.22it/s]
+Training:   0%|          | 0/157 [00:00<?, ?it/s]Epoch 8: Train Loss: 4.261, Val Loss: 6.621
+Training: 100%|██████████| 157/157 [11:57<00:00,  4.57s/it]
+Evaluating: 100%|██████████| 8/8 [00:06<00:00,  1.16it/s]
+Epoch 9: Train Loss: 4.152, Val Loss: 6.854
+Training: 100%|██████████| 157/157 [11:43<00:00,  4.48s/it]
+Evaluating: 100%|██████████| 8/8 [00:06<00:00,  1.23it/s]
+Epoch 10: Train Loss: 4.062, Val Loss: 6.756
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 22312 (\N{CJK UNIFIED IDEOGRAPH-5728}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 36825 (\N{CJK UNIFIED IDEOGRAPH-8FD9}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 19968 (\N{CJK UNIFIED IDEOGRAPH-4E00}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 26159 (\N{CJK UNIFIED IDEOGRAPH-662F}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 65292 (\N{FULLWIDTH COMMA}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 21542 (\N{CJK UNIFIED IDEOGRAPH-5426}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 12290 (\N{IDEOGRAPHIC FULL STOP}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 22312 (\N{CJK UNIFIED IDEOGRAPH-5728}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 36825 (\N{CJK UNIFIED IDEOGRAPH-8FD9}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 19968 (\N{CJK UNIFIED IDEOGRAPH-4E00}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 26159 (\N{CJK UNIFIED IDEOGRAPH-662F}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 65292 (\N{FULLWIDTH COMMA}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 21542 (\N{CJK UNIFIED IDEOGRAPH-5426}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 12290 (\N{IDEOGRAPHIC FULL STOP}) missing from current font.
+  plt.savefig(filename)
+
+=== Training with dot attention ===
+Training: 100%|██████████| 157/157 [07:02<00:00,  2.69s/it]
+Evaluating: 100%|██████████| 8/8 [00:04<00:00,  1.83it/s]
+Epoch 1: Train Loss: 6.020, Val Loss: 6.639
+Training: 100%|██████████| 157/157 [07:07<00:00,  2.72s/it]
+Evaluating: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]
+Epoch 2: Train Loss: 5.506, Val Loss: 6.588
+Training: 100%|██████████| 157/157 [07:12<00:00,  2.76s/it]
+Evaluating: 100%|██████████| 8/8 [00:04<00:00,  1.74it/s]
+Epoch 3: Train Loss: 5.218, Val Loss: 6.540
+Training: 100%|██████████| 157/157 [07:05<00:00,  2.71s/it]
+Evaluating: 100%|██████████| 8/8 [00:05<00:00,  1.44it/s]
+Training:   0%|          | 0/157 [00:00<?, ?it/s]Epoch 4: Train Loss: 5.018, Val Loss: 6.542
+Training: 100%|██████████| 157/157 [07:14<00:00,  2.77s/it]
+Evaluating: 100%|██████████| 8/8 [00:04<00:00,  1.69it/s]
+Epoch 5: Train Loss: 4.833, Val Loss: 6.526
+Training: 100%|██████████| 157/157 [07:02<00:00,  2.69s/it]
+Evaluating: 100%|██████████| 8/8 [00:05<00:00,  1.59it/s]
+Training:   0%|          | 0/157 [00:00<?, ?it/s]Epoch 6: Train Loss: 4.688, Val Loss: 6.646
+Training: 100%|██████████| 157/157 [07:12<00:00,  2.76s/it]
+Evaluating: 100%|██████████| 8/8 [00:06<00:00,  1.29it/s]
+Training:   0%|          | 0/157 [00:00<?, ?it/s]Epoch 7: Train Loss: 4.534, Val Loss: 6.650
+Training: 100%|██████████| 157/157 [07:08<00:00,  2.73s/it]
+Evaluating: 100%|██████████| 8/8 [00:04<00:00,  1.79it/s]
+Epoch 8: Train Loss: 4.439, Val Loss: 6.681
+Training: 100%|██████████| 157/157 [07:09<00:00,  2.74s/it]
+Evaluating: 100%|██████████| 8/8 [00:04<00:00,  1.73it/s]
+Training:   0%|          | 0/157 [00:00<?, ?it/s]Epoch 9: Train Loss: 4.324, Val Loss: 6.769
+Training: 100%|██████████| 157/157 [07:11<00:00,  2.75s/it]
+Evaluating: 100%|██████████| 8/8 [00:05<00:00,  1.59it/s]
+Epoch 10: Train Loss: 4.229, Val Loss: 6.800
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 22312 (\N{CJK UNIFIED IDEOGRAPH-5728}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 26376 (\N{CJK UNIFIED IDEOGRAPH-6708}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 20221 (\N{CJK UNIFIED IDEOGRAPH-4EFD}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 12290 (\N{IDEOGRAPHIC FULL STOP}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 22312 (\N{CJK UNIFIED IDEOGRAPH-5728}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 26376 (\N{CJK UNIFIED IDEOGRAPH-6708}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 20221 (\N{CJK UNIFIED IDEOGRAPH-4EFD}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 12290 (\N{IDEOGRAPHIC FULL STOP}) missing from current font.
+  plt.savefig(filename)
+
+=== Training with multiplicative attention ===
+Training: 100%|██████████| 157/157 [09:49<00:00,  3.76s/it]
+Evaluating: 100%|██████████| 8/8 [00:06<00:00,  1.21it/s]
+Epoch 1: Train Loss: 5.992, Val Loss: 6.621
+Training: 100%|██████████| 157/157 [09:27<00:00,  3.62s/it]
+Evaluating: 100%|██████████| 8/8 [00:06<00:00,  1.27it/s]
+Epoch 2: Train Loss: 5.458, Val Loss: 6.552
+Training: 100%|██████████| 157/157 [09:48<00:00,  3.75s/it]
+Evaluating: 100%|██████████| 8/8 [00:05<00:00,  1.41it/s]
+Training:   0%|          | 0/157 [00:00<?, ?it/s]Epoch 3: Train Loss: 5.196, Val Loss: 6.597
+Training: 100%|██████████| 157/157 [09:45<00:00,  3.73s/it]
+Evaluating: 100%|██████████| 8/8 [00:06<00:00,  1.31it/s]
+Epoch 4: Train Loss: 5.038, Val Loss: 6.527
+Training: 100%|██████████| 157/157 [10:07<00:00,  3.87s/it]
+Evaluating: 100%|██████████| 8/8 [00:06<00:00,  1.22it/s]
+Training:   0%|          | 0/157 [00:00<?, ?it/s]Epoch 5: Train Loss: 4.902, Val Loss: 6.592
+Training: 100%|██████████| 157/157 [09:59<00:00,  3.82s/it]
+Evaluating: 100%|██████████| 8/8 [00:06<00:00,  1.23it/s]
+Training:   0%|          | 0/157 [00:00<?, ?it/s]Epoch 6: Train Loss: 4.768, Val Loss: 6.601
+Training: 100%|██████████| 157/157 [10:02<00:00,  3.84s/it]
+Evaluating: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
+Epoch 7: Train Loss: 4.657, Val Loss: 6.655
+Training: 100%|██████████| 157/157 [09:45<00:00,  3.73s/it]
+Evaluating: 100%|██████████| 8/8 [00:05<00:00,  1.40it/s]
+Training:   0%|          | 0/157 [00:00<?, ?it/s]Epoch 8: Train Loss: 4.528, Val Loss: 6.764
+Training: 100%|██████████| 157/157 [09:52<00:00,  3.77s/it]
+Evaluating: 100%|██████████| 8/8 [00:06<00:00,  1.25it/s]
+Epoch 9: Train Loss: 4.440, Val Loss: 6.700
+Training: 100%|██████████| 157/157 [09:59<00:00,  3.82s/it]
+Evaluating: 100%|██████████| 8/8 [00:06<00:00,  1.30it/s]
+Epoch 10: Train Loss: 4.387, Val Loss: 6.764
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 20294 (\N{CJK UNIFIED IDEOGRAPH-4F46}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 26159 (\N{CJK UNIFIED IDEOGRAPH-662F}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 65292 (\N{FULLWIDTH COMMA}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 36825 (\N{CJK UNIFIED IDEOGRAPH-8FD9}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 20123 (\N{CJK UNIFIED IDEOGRAPH-4E9B}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 19968 (\N{CJK UNIFIED IDEOGRAPH-4E00}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 20010 (\N{CJK UNIFIED IDEOGRAPH-4E2A}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 20154 (\N{CJK UNIFIED IDEOGRAPH-4EBA}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 20204 (\N{CJK UNIFIED IDEOGRAPH-4EEC}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Program Files\JetBrains\PyCharm 2025.2.2\plugins\python-ce\helpers\pycharm_matplotlib_backend\backend_interagg.py:124: UserWarning: Glyph 12290 (\N{IDEOGRAPHIC FULL STOP}) missing from current font.
+  FigureCanvasAgg.draw(self)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 20294 (\N{CJK UNIFIED IDEOGRAPH-4F46}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 26159 (\N{CJK UNIFIED IDEOGRAPH-662F}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 65292 (\N{FULLWIDTH COMMA}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 36825 (\N{CJK UNIFIED IDEOGRAPH-8FD9}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 20123 (\N{CJK UNIFIED IDEOGRAPH-4E9B}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 19968 (\N{CJK UNIFIED IDEOGRAPH-4E00}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 20010 (\N{CJK UNIFIED IDEOGRAPH-4E2A}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 20154 (\N{CJK UNIFIED IDEOGRAPH-4EBA}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 20204 (\N{CJK UNIFIED IDEOGRAPH-4EEC}) missing from current font.
+  plt.savefig(filename)
+C:\Users\250010086\Desktop\pro\rnn_nmt.py:330: UserWarning: Glyph 12290 (\N{IDEOGRAPHIC FULL STOP}) missing from current font.
+  plt.savefig(filename)
+
+=== Final Results ===
+additive: Greedy BLEU=0.0212, Beam BLEU=0.0188
+dot: Greedy BLEU=0.0266, Beam BLEU=0.0259
+multiplicative: Greedy BLEU=0.0211, Beam BLEU=0.0229
+
+=== Teacher Forcing vs Free Running (additive) ===
+Training: 100%|██████████| 157/157 [15:21<00:00,  5.87s/it]
+Training: 100%|██████████| 157/157 [15:37<00:00,  5.97s/it]
+Training: 100%|██████████| 157/157 [15:31<00:00,  5.94s/it]
+Training: 100%|██████████| 157/157 [15:22<00:00,  5.88s/it]
+Training: 100%|██████████| 157/157 [14:45<00:00,  5.64s/it]
+Training: 100%|██████████| 157/157 [14:43<00:00,  5.63s/it]
+Training: 100%|██████████| 157/157 [14:40<00:00,  5.61s/it]
+Training: 100%|██████████| 157/157 [14:25<00:00,  5.51s/it]
+Training: 100%|██████████| 157/157 [14:41<00:00,  5.62s/it]
+Training: 100%|██████████| 157/157 [14:20<00:00,  5.48s/it]
+
+进程已结束，退出代码为 0

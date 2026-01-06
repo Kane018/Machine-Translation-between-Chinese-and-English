@@ -1,0 +1,390 @@
+C:\Users\250010086\.conda\envs\nlp\python.exe C:\Users\250010086\Desktop\pro\transformer_nmt.py 
+初始化...
+使用设备: cuda
+
+加载数据...
+读取 1000 条数据构建词汇表
+中文词汇表大小: 96
+英文词汇表大小: 1279
+训练集: 10000 条
+验证集: 500 条
+测试集: 200 条
+
+============================================================
+实验1: 从零训练Transformer模型
+============================================================
+模型参数量: 1,266,687
+开始训练...
+  Batch 0, Loss: 7.1914
+  Batch 100, Loss: 2.4986
+  Batch 200, Loss: 1.1298
+  Batch 300, Loss: 0.9451
+  Batch 400, Loss: 0.8815
+  Batch 500, Loss: 1.4721
+  Batch 600, Loss: 0.4770
+Epoch 1/3 | Time: 6.16s
+  Train Loss: 1.3950 | Valid Loss: 0.0182
+--------------------------------------------------
+  Batch 0, Loss: 0.8575
+  Batch 100, Loss: 1.1938
+  Batch 200, Loss: 1.1160
+  Batch 300, Loss: 0.4383
+  Batch 400, Loss: 0.7266
+  Batch 500, Loss: 1.0749
+  Batch 600, Loss: 0.5230
+Epoch 2/3 | Time: 6.00s
+  Train Loss: 0.4620 | Valid Loss: 0.0068
+--------------------------------------------------
+  Batch 0, Loss: 0.1834
+  Batch 100, Loss: 0.0055
+  Batch 200, Loss: 0.5411
+  Batch 300, Loss: 0.4038
+  Batch 400, Loss: 0.0377
+  Batch 500, Loss: 0.2440
+  Batch 600, Loss: 0.2832
+Epoch 3/3 | Time: 6.28s
+  Train Loss: 0.3971 | Valid Loss: 0.0019
+--------------------------------------------------
+训练曲线已保存到 outputs/transformer_training_curves.png
+
+============================================================
+超参数敏感性分析
+============================================================
+
+1. 批量大小敏感性分析
+
+  测试批量大小: 8
+开始训练...
+  Batch 0, Loss: 7.2266
+  Batch 100, Loss: 4.7596
+  Batch 200, Loss: 3.6506
+  Batch 300, Loss: 2.6638
+  Batch 400, Loss: 1.5093
+  Batch 500, Loss: 1.8118
+  Batch 600, Loss: 1.9571
+  Batch 700, Loss: 0.2389
+  Batch 800, Loss: 0.2982
+  Batch 900, Loss: 0.6036
+  Batch 1000, Loss: 0.1209
+  Batch 1100, Loss: 0.0936
+  Batch 1200, Loss: 0.3582
+Epoch 1/2 | Time: 15.34s
+  Train Loss: 1.9158 | Valid Loss: 0.0427
+--------------------------------------------------
+  Batch 0, Loss: 0.9729
+  Batch 100, Loss: 1.0149
+  Batch 200, Loss: 0.8304
+  Batch 300, Loss: 1.8079
+  Batch 400, Loss: 0.2583
+  Batch 500, Loss: 0.0183
+  Batch 600, Loss: 0.4351
+  Batch 700, Loss: 0.9329
+  Batch 800, Loss: 0.3565
+  Batch 900, Loss: 0.0113
+  Batch 1000, Loss: 0.3579
+  Batch 1100, Loss: 0.2266
+  Batch 1200, Loss: 0.0960
+Epoch 2/2 | Time: 13.90s
+  Train Loss: 0.5582 | Valid Loss: 0.0079
+--------------------------------------------------
+    最终验证损失: 0.0079
+
+  测试批量大小: 16
+开始训练...
+  Batch 0, Loss: 7.3258
+  Batch 100, Loss: 5.1415
+  Batch 200, Loss: 3.9788
+  Batch 300, Loss: 2.6164
+  Batch 400, Loss: 1.4262
+  Batch 500, Loss: 1.8992
+  Batch 600, Loss: 1.3828
+Epoch 1/2 | Time: 6.59s
+  Train Loss: 3.0484 | Valid Loss: 0.2653
+--------------------------------------------------
+  Batch 0, Loss: 1.4106
+  Batch 100, Loss: 0.9813
+  Batch 200, Loss: 0.4261
+  Batch 300, Loss: 0.4668
+  Batch 400, Loss: 0.5226
+  Batch 500, Loss: 0.9183
+  Batch 600, Loss: 0.6436
+Epoch 2/2 | Time: 7.52s
+  Train Loss: 0.7223 | Valid Loss: 0.0273
+--------------------------------------------------
+    最终验证损失: 0.0273
+
+  测试批量大小: 32
+开始训练...
+  Batch 0, Loss: 7.3321
+  Batch 100, Loss: 4.7597
+  Batch 200, Loss: 3.6856
+  Batch 300, Loss: 2.7756
+Epoch 1/2 | Time: 3.83s
+  Train Loss: 4.3634 | Valid Loss: 1.9560
+--------------------------------------------------
+  Batch 0, Loss: 2.7651
+  Batch 100, Loss: 1.5590
+  Batch 200, Loss: 1.3805
+  Batch 300, Loss: 0.6265
+Epoch 2/2 | Time: 3.64s
+  Train Loss: 1.6354 | Valid Loss: 0.2728
+--------------------------------------------------
+    最终验证损失: 0.2728
+
+2. 学习率敏感性分析
+
+  测试学习率: 1e-05
+开始训练...
+  Batch 0, Loss: 7.1118
+  Batch 100, Loss: 6.5243
+  Batch 200, Loss: 6.0068
+  Batch 300, Loss: 5.9710
+  Batch 400, Loss: 5.6619
+  Batch 500, Loss: 5.5034
+  Batch 600, Loss: 5.6953
+Epoch 1/2 | Time: 7.11s
+  Train Loss: 5.9557 | Valid Loss: 4.9409
+--------------------------------------------------
+  Batch 0, Loss: 5.5590
+  Batch 100, Loss: 5.3254
+  Batch 200, Loss: 5.2935
+  Batch 300, Loss: 5.2219
+  Batch 400, Loss: 5.4180
+  Batch 500, Loss: 4.9933
+  Batch 600, Loss: 4.5524
+Epoch 2/2 | Time: 7.54s
+  Train Loss: 5.0890 | Valid Loss: 4.1816
+--------------------------------------------------
+    最终验证损失: 4.1816
+
+  测试学习率: 0.0001
+开始训练...
+  Batch 0, Loss: 7.5275
+  Batch 100, Loss: 5.0552
+  Batch 200, Loss: 4.3552
+  Batch 300, Loss: 2.6362
+  Batch 400, Loss: 2.4847
+  Batch 500, Loss: 1.8523
+  Batch 600, Loss: 1.1316
+Epoch 1/2 | Time: 7.29s
+  Train Loss: 3.1939 | Valid Loss: 0.3009
+--------------------------------------------------
+  Batch 0, Loss: 1.2723
+  Batch 100, Loss: 1.3818
+  Batch 200, Loss: 0.8348
+  Batch 300, Loss: 0.6368
+  Batch 400, Loss: 0.9340
+  Batch 500, Loss: 0.5321
+  Batch 600, Loss: 0.6607
+Epoch 2/2 | Time: 7.31s
+  Train Loss: 0.7761 | Valid Loss: 0.0304
+--------------------------------------------------
+    最终验证损失: 0.0304
+
+  测试学习率: 0.001
+开始训练...
+  Batch 0, Loss: 6.7650
+  Batch 100, Loss: 1.6202
+  Batch 200, Loss: 0.4047
+  Batch 300, Loss: 0.2221
+  Batch 400, Loss: 0.6974
+  Batch 500, Loss: 0.6517
+  Batch 600, Loss: 0.5124
+Epoch 1/2 | Time: 7.02s
+  Train Loss: 0.8000 | Valid Loss: 0.0020
+--------------------------------------------------
+  Batch 0, Loss: 0.3287
+  Batch 100, Loss: 0.8592
+  Batch 200, Loss: 0.6893
+  Batch 300, Loss: 0.3302
+  Batch 400, Loss: 0.5744
+  Batch 500, Loss: 0.3537
+  Batch 600, Loss: 0.5924
+Epoch 2/2 | Time: 6.87s
+  Train Loss: 0.3978 | Valid Loss: 0.0007
+--------------------------------------------------
+    最终验证损失: 0.0007
+
+3. 模型规模敏感性分析
+
+  测试模型: tiny
+    配置: d_model=64, n_layers=1, n_heads=2
+开始训练...
+  Batch 0, Loss: 6.9470
+  Batch 100, Loss: 5.0651
+  Batch 200, Loss: 4.2014
+  Batch 300, Loss: 2.7389
+  Batch 400, Loss: 2.1744
+  Batch 500, Loss: 1.6289
+  Batch 600, Loss: 1.1023
+Epoch 1/2 | Time: 3.97s
+  Train Loss: 3.0760 | Valid Loss: 0.2475
+--------------------------------------------------
+  Batch 0, Loss: 1.8016
+  Batch 100, Loss: 1.0539
+  Batch 200, Loss: 0.5494
+  Batch 300, Loss: 0.6873
+  Batch 400, Loss: 0.1082
+  Batch 500, Loss: 0.5301
+  Batch 600, Loss: 0.2673
+Epoch 2/2 | Time: 3.52s
+  Train Loss: 0.7900 | Valid Loss: 0.0354
+--------------------------------------------------
+    参数量: 287,871
+    最终验证损失: 0.0354
+
+  测试模型: small
+    配置: d_model=128, n_layers=2, n_heads=4
+开始训练...
+  Batch 0, Loss: 7.3370
+  Batch 100, Loss: 2.2678
+  Batch 200, Loss: 2.1992
+  Batch 300, Loss: 1.0422
+  Batch 400, Loss: 0.6724
+  Batch 500, Loss: 1.5176
+  Batch 600, Loss: 0.4165
+Epoch 1/2 | Time: 7.25s
+  Train Loss: 1.3758 | Valid Loss: 0.0185
+--------------------------------------------------
+  Batch 0, Loss: 0.6362
+  Batch 100, Loss: 0.4462
+  Batch 200, Loss: 0.0469
+  Batch 300, Loss: 0.5565
+  Batch 400, Loss: 0.9520
+  Batch 500, Loss: 0.2083
+  Batch 600, Loss: 0.1951
+Epoch 2/2 | Time: 6.78s
+  Train Loss: 0.4595 | Valid Loss: 0.0066
+--------------------------------------------------
+    参数量: 1,266,687
+    最终验证损失: 0.0066
+
+  测试模型: medium
+    配置: d_model=256, n_layers=3, n_heads=8
+开始训练...
+  Batch 0, Loss: 7.6935
+  Batch 100, Loss: 1.0660
+  Batch 200, Loss: 0.9168
+  Batch 300, Loss: 0.1909
+  Batch 400, Loss: 0.0282
+  Batch 500, Loss: 0.4651
+  Batch 600, Loss: 0.2033
+Epoch 1/2 | Time: 11.22s
+  Train Loss: 0.7190 | Valid Loss: 0.0025
+--------------------------------------------------
+  Batch 0, Loss: 0.1439
+  Batch 100, Loss: 0.4306
+  Batch 200, Loss: 0.1614
+  Batch 300, Loss: 0.3109
+  Batch 400, Loss: 0.3046
+  Batch 500, Loss: 0.0023
+  Batch 600, Loss: 0.2530
+Epoch 2/2 | Time: 12.27s
+  Train Loss: 0.3870 | Valid Loss: 0.0015
+--------------------------------------------------
+    参数量: 6,210,303
+    最终验证损失: 0.0015
+
+生成敏感性分析图表...
+敏感性分析图表已保存到 outputs/ 目录
+
+============================================================
+基于预训练模型的微调 (T5)
+============================================================
+加载预训练的T5模型和分词器...
+You are using the default legacy behaviour of the <class 'transformers.models.t5.tokenization_t5.T5Tokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+准备微调数据...
+开始微调T5模型 (2个epoch)...
+Epoch 1/2, Loss: 1.7319
+Epoch 2/2, Loss: 0.8427
+
+测试微调后的T5模型...
+
+源文: Records indicate that HMX-1 inquired about whether the event might violate the provision.
+参考: 记录指出 HMX-1 曾询问此次活动是否违反了该法案。
+T5翻译: 
+
+源文: "One question we asked was if it was a violation of the Hatch Act and were informed it was not," the commander wrote.
+参考: 该指挥官写道“我们问的一个问题是这是否违反了《哈奇法案》，并被告知没有违反。”
+T5翻译: ,
+
+源文: "Sounds like you are locked," the Deputy Commandant replied.
+参考: “听起来你被锁住了啊，”副司令回复道。
+T5翻译: ,
+
+源文: The "Made in America" event was designated an official event by the White House, and would not have been covered by the Hatch Act.
+参考: 白宫将此次“美国制造”活动定义为官方活动，因此不受《哈奇法案》管辖。
+T5翻译: ,
+
+源文: But even official events have political overtones.
+参考: 但是即使是官方活动也带有政治色彩。
+T5翻译: 
+
+T5模型平均翻译质量分数: 0.0000
+T5训练曲线已保存到 outputs/t5_training_loss.png
+
+============================================================
+实验4: 模型性能对比
+============================================================
+
+评估从零训练的Transformer模型...
+
+示例 1:
+  源文: Records indicate that HMX-1 inquired about whether the event might violate the provision.
+  参考翻译: 记录指出 HMX-1 曾询问此次活动是否违反了该法案。
+  Transformer翻译: 
+
+示例 2:
+  源文: "One question we asked was if it was a violation of the Hatch Act and were informed it was not," the commander wrote.
+  参考翻译: 该指挥官写道“我们问的一个问题是这是否违反了《哈奇法案》，并被告知没有违反。”
+  Transformer翻译: 
+
+示例 3:
+  源文: "Sounds like you are locked," the Deputy Commandant replied.
+  参考翻译: “听起来你被锁住了啊，”副司令回复道。
+  Transformer翻译: 
+
+示例 4:
+  源文: The "Made in America" event was designated an official event by the White House, and would not have been covered by the Hatch Act.
+  参考翻译: 白宫将此次“美国制造”活动定义为官方活动，因此不受《哈奇法案》管辖。
+  Transformer翻译: 
+
+示例 5:
+  源文: But even official events have political overtones.
+  参考翻译: 但是即使是官方活动也带有政治色彩。
+  Transformer翻译: 
+
+从零训练的Transformer模型平均翻译质量分数: 0.0000
+
+============================================================
+性能对比总结
+============================================================
+
+1. 从零训练的Transformer模型:
+   最终训练损失: 0.3971
+   最终验证损失: 0.0019
+   测试集翻译质量分数: 0.0000
+
+2. 微调的T5模型:
+   最终训练损失: 0.8427
+   测试集翻译质量分数: 0.0000
+
+3. 性能对比分析:
+   翻译质量分数差异: 0.0000
+   从零训练的Transformer模型表现更好
+
+4. 超参数敏感性分析结果:
+   最佳批量大小: 8
+   最佳学习率: 0.001
+   最佳模型配置: medium (d_model=256, layers=3)
+
+5. 可视化结果:
+   - Transformer训练曲线: outputs/transformer_training_curves.png
+   - 批量大小敏感性: outputs/sensitivity_batch_size.png
+   - 学习率敏感性: outputs/sensitivity_learning_rate.png
+   - 模型规模敏感性: outputs/sensitivity_model_size.png
+   - T5训练曲线: outputs/t5_training_loss.png
+
+所有实验完成!
+
+进程已结束，退出代码为 0
